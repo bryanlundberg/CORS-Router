@@ -16,7 +16,7 @@ app.get("/:url(*)", async function (req, res, next) {
   const apiUrl = req.params.url;
   try {
     const response = await axios.get(apiUrl);
-    res.json({ data: response.data });
+    res.json(response.data);
   } catch (error) {
     res.json({ error: error.message });
   }
