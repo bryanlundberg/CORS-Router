@@ -6,11 +6,11 @@ CORS-Handler is a versatile proxy solution designed to alleviate Cross-Origin Re
 
 By sending your HTTP requests through CORS-Handler using the following format:
 
-`https://cors-proxy-0rcx.onrender.com/https://your-url-to-fetch` 
+`https://cors-proxy-0rcx.onrender.com/proxy/https://your-url-to-fetch` 
 
 Usage example:
 
-    https://cors-proxy-0rcx.onrender.com/https://pokeapi.co/api/v2/pokemon/ditto
+    https://cors-proxy-0rcx.onrender.com/proxy/https://pokeapi.co/api/v2/pokemon/ditto
 
 You'll receive a clean, unrestricted response, ensuring your frontend applications can seamlessly access data from different domains without encountering CORS roadblocks.
 
