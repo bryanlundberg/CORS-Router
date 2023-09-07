@@ -1,26 +1,23 @@
-# **CORS-Handler**
+# **CORS-Router**
 
-CORS-Handler is a versatile proxy solution designed to alleviate Cross-Origin Resource Sharing (CORS) complications in frontend web development. With this tool, you can easily circumvent CORS restrictions when making requests to external resources.
+CORS-Router is a flexible proxy solution specifically to simplify Cross-Origin Resource Sharing (CORS) challenges within serverless web applications. It effortlessly enables you to bypass CORS limitations while accessing external API's.
 
 ### How It Works
 
 By sending your HTTP requests through CORS-Handler using the following format:
 
-`https://cors-proxy-0rcx.onrender.com/proxy/https://your-url-to-fetch` 
+`https://cors-router.onrender.com/proxy/https://your-url-to-fetch` 
 
 Usage example:
 
-    https://cors-proxy-0rcx.onrender.com/proxy/https://pokeapi.co/api/v2/pokemon/ditto
+    https://cors-router.onrender.com/proxy/https://pokeapi.co/api/v2/pokemon/ditto
 
-You'll receive a clean, unrestricted response, ensuring your frontend applications can seamlessly access data from different domains without encountering CORS roadblocks.
-
-
+This makes sure your frontend apps can easily fetch data without any CORS issues in production.
 
 ### Key Features
 
--   Seamlessly resolve CORS issues in your frontend projects.
--   Facilitates secure cross-origin requests without having a server.
--   Simplifies the process of integrating external APIs and resources.
+-   Seamlessly resolve CORS issues in your serverless projects.
+-   Preserve the original response, whether it succeeds or fails.
 -   Lightweight and easy to use.
 
 
