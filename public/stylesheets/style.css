@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@800&display=swap");
+.bg {
+  background-color: rgba(243, 243, 243, 0.164);
+  background-image: radial-gradient(
+    rgba(27, 27, 27, 0.096) 2px,
+    rgba(243, 243, 243, 0.055) 2px
+  );
+  background-size: 40px 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Blinker", sans-serif;
+  font-weight: 800;
+}

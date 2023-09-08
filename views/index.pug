@@ -2,19 +2,13 @@ extends layout
 
 block content
   .container.py-5.text-center
-    h1 Why CORS Router?
-    p When building serverless websites, CORS errors can be resolved temporarily using browser extensions. 
-    p But for production sharing without requiring everyone to download the same extension, CORS-Router comes to the rescue.
-
+    h1.title Why CORS Router?
+    p Resolve CORS issues in "production" for your serverless projects.
     h3 How It Works
     p By sending your HTTP requests through CORS-Router using the following format:
-
     code.d-block https://cors-router.onrender.com/proxy/
-
     img.img-fluid(src="https://cdn.discordapp.com/attachments/1137527038366978078/1148818874859528312/img_1.png", alt="")
-
-    p You'll receive a clean, unrestricted response, ensuring your frontend applications can seamlessly access data from different domains without encountering CORS roadblocks.
-
+    p Preserve the original server response, whether it succeeds or fails.
     img.img-fluid(src="https://media.discordapp.net/attachments/1137527038366978078/1148810136111026307/img_2.png", alt="")
     a.d-block.link-body-emphasis(href="https://github.com/bryanlundberg/CORS-Router") 
       svg.bi.bi-github(xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='currentColor' viewbox='0 0 16 16')
